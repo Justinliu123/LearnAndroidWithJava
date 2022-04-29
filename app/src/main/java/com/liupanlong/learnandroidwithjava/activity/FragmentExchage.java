@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.liupanlong.learnandroidwithjava.FristFragment;
 import com.liupanlong.learnandroidwithjava.R;
+import com.liupanlong.learnandroidwithjava.behavior.MyLifecycleObserver;
 import com.liupanlong.learnandroidwithjava.others.ResponseToFragmentButtonClick;
 
 import cn.hutool.core.text.StrFormatter;
@@ -23,6 +24,7 @@ public class FragmentExchage extends AppCompatActivity implements ResponseToFrag
                 // .addToBackStack(null) // 添加该语句支持回退，删除不支持
                 .add(R.id.fragmentContainerToActivityInfo, fragment, "fragment1")
                 .commit();
+
     }
 
     @Override
