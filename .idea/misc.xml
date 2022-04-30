@@ -5,20 +5,27 @@
       <map>
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.2015625" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_choose_image.xml" value="0.38645833333333335" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_data_binding.xml" value="0.20104166666666667" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_fragment_exchage.xml" value="0.20104166666666667" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_have_fragment.xml" value="0.38645833333333335" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_lifecycle_part.xml" value="0.25" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_main2.xml" value="0.20104166666666667" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_permission.xml" value="0.38645833333333335" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_view_pager_main.xml" value="0.20104166666666667" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/callback_activity.xml" value="0.25" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/constant_layout.xml" value="0.16197916666666667" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_exchage.xml" value="0.25" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_first.xml" value="0.18645833333333334" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_first2.xml" value="0.20104166666666667" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_frist.xml" value="0.20104166666666667" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_second.xml" value="0.20104166666666667" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_second2.xml" value="0.20104166666666667" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_third.xml" value="0.20104166666666667" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_view_pager1.xml" value="0.2" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_view_pager2.xml" value="0.2015625" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/switch_item.xml" value="0.38645833333333335" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/top_tabs.xml" value="0.2015625" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/menu/mymenu.xml" value="0.38645833333333335" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2085" />
       </map>

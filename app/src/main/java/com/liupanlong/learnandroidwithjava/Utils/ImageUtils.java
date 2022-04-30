@@ -1,4 +1,4 @@
-package com.liupanlong.learnandroidwithjava;
+package com.liupanlong.learnandroidwithjava.Utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -9,7 +9,7 @@ import android.provider.MediaStore;
 
 import java.io.IOException;
 
-public class Utils {
+public class ImageUtils {
     public static Bitmap getBitmapFormUri(Context appContext, Uri uri){
         Context applicationContext = appContext.getApplicationContext();
         Bitmap bitmap = null;

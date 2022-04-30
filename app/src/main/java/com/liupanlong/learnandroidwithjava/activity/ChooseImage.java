@@ -11,14 +11,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.blankj.utilcode.util.ImageUtils;
 import com.liupanlong.learnandroidwithjava.R;
-import com.liupanlong.learnandroidwithjava.Utils;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.net.URI;
+import com.liupanlong.learnandroidwithjava.Utils.ImageUtils;
 
 public class ChooseImage extends AppCompatActivity {
     // 选择一个图片的回调launcher
@@ -42,7 +36,7 @@ public class ChooseImage extends AppCompatActivity {
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }*/
-                bitmap = Utils.getBitmapFormUri(this, result.getData().getData());
+                bitmap = ImageUtils.getBitmapFormUri(this, result.getData().getData());
                 showImage.setImageBitmap(bitmap);
             }
         }));

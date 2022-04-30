@@ -3,4 +3,6 @@
     <string name="background">这是一个背景图片</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tabs_message">消息</string>
+    <string name="tabs_notification">通知</string>
 </resources>
