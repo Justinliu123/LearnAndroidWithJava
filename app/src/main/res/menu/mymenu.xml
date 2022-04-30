@@ -3,9 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/Save"
-        android:title="保存" />
+        android:id="@+id/firstFragment"
+        android:title="FirstFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:orderInCategory="1"/>
     <item
-        android:id="@+id/Open"
-        android:title="打开" />
+        android:id="@+id/secondFragment"
+        android:title="secondFragment"
+        android:icon="@drawable/ic_baseline_mail_24"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/thirdFragment"
+        android:title="ThirdFragment"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:orderInCategory="3"/>
 </menu>
