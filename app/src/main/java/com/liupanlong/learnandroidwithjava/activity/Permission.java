@@ -25,6 +25,8 @@ public class Permission extends AppCompatActivity {
     private ActivityResultLauncher<String[]> launcher = null;
     private TextView infoShow = null;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

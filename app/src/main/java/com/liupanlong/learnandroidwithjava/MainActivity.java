@@ -1,5 +1,7 @@
 package com.liupanlong.learnandroidwithjava;
 
+import static cn.hutool.core.lang.Console.log;
+
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.ActivityResultRegistry;
 import androidx.activity.result.contract.ActivityResultContract;
@@ -14,7 +16,10 @@ import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.Image;
+import android.net.ConnectivityManager;
+import android.net.NetworkRequest;
 import android.os.Bundle;
+import android.telecom.ConnectionRequest;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,6 +30,7 @@ import android.widget.Toast;
 
 import com.liupanlong.learnandroidwithjava.activity.ChooseImage;
 import com.liupanlong.learnandroidwithjava.entity.User;
+import com.liupanlong.learnandroidwithjava.others.TestNetWorkConnection;
 
 import java.time.LocalTime;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -41,10 +47,16 @@ public class MainActivity extends AppCompatActivity {
     // 调用activity的launcher
     private ActivityResultLauncher<Intent> launcher1 = null;
 
+    public ConnectivityManager.NetworkCallback callback = new TestNetWorkConnection(this);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+     /*   new Thread(()->{
+            checkNetWork();
+        });*/
+        checkNetWork();
         // 注册launcher
         launcher1 = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), (result) -> {
             if(result == null) {
@@ -111,6 +123,12 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void checkNetWork() {
+        ConnectivityManager connectivityManager = getSystemService(ConnectivityManager.class);
+        NetworkRequest networkRequest = new NetworkRequest.Builder().build();
+        connectivityManager.registerNetworkCallback(networkRequest, callback);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.mymenu, menu);
@@ -128,5 +146,11 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
         // 保存实例数据
         outState.putInt("counter", staCounter);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        log("MainActivity被销毁");
     }
 }
