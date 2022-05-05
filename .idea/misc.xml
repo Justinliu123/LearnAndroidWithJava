@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/drawable-v24/btn_multi_bg.xml" value="0.209" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/drawable-v24/btn_send_bg_disable.xml" value="0.2085" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/drawable-v24/btn_voice_or_text.xml" value="0.2085" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/drawable-v24/jmui_back_btn_bg.xml" value="0.209" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/drawable-v24/jmui_msg_receive_bg.xml" value="0.2085" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/drawable-v24/jmui_msg_send_bg.xml" value="0.2085" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/drawable-v24/send_message_failed.xml" value="0.2085" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/drawable/icon.xml" value="0.2085" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.2015625" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_choose_image.xml" value="0.38645833333333335" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_data_binding.xml" value="0.20104166666666667" />
@@ -14,6 +22,7 @@
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_main3.xml" value="0.33" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_permission.xml" value="0.38645833333333335" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_view_pager_main.xml" value="0.20104166666666667" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/activity_websocket_main.xml" value="0.38645833333333335" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/callback_activity.xml" value="0.25" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/constant_layout.xml" value="0.16197916666666667" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_exchage.xml" value="0.25" />
@@ -25,9 +34,12 @@
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_third.xml" value="0.20104166666666667" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_view_pager1.xml" value="0.2" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/fragment_view_pager2.xml" value="0.2015625" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/item_chat_receive_text.xml" value="0.20104166666666667" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/item_chat_send_text.xml" value="0.20104166666666667" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/recycler_item.xml" value="0.25" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/switch_item.xml" value="0.38645833333333335" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/top_tabs.xml" value="0.2015625" />
+        <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/layout/view_keyboard_xhs.xml" value="0.33" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/menu/mymenu.xml" value="0.38645833333333335" />
         <entry key="..\:/Dev/LearnAndroidWithJava/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2085" />
       </map>

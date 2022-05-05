@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+        <!-- 语音/文字切换-->
+
+    <!--语音输入-->
+        <!--<jiguang.chat.view.RecordVoiceButton-->
+            <!--android:id="@+id/btn_voice"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="34dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:layout_toLeftOf="@+id/rl_multi_and_send"-->
+            <!--android:layout_toRightOf="@+id/btn_voice_or_text"-->
+            <!--android:background="@drawable/btn_voice"-->
+            <!--android:text="@string/btn_text_speak"-->
+            <!--android:textColor="#727272"-->
+            <!--android:visibility="gone"/>-->
+
+
+            <!--输入框-->
+            <!--<jiguang.chat.utils.keyboard.widget.EmoticonsEditText-->
+                <!--android:id="@+id/et_chat"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:background="@null"-->
+                <!--android:focusable="false"-->
+                <!--android:focusableInTouchMode="false"-->
+                <!--android:lineSpacingExtra="4dp"-->
+                <!--android:maxLines="4"-->
+                <!--android:paddingLeft="8dp"-->
+                <!--android:textSize="16sp"/>-->
+    <ImageView
+        android:id="@+id/btn_voice_or_text"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/btn_voice_or_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_multimedia"
+        app:layout_constraintStart_toEndOf="@+id/btn_voice_or_text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!--表情-->
+
+    <!--apps 功能-->
+
+            <!--发送-->
+
+    <ImageView
+        android:id="@+id/btn_multimedia"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/btn_multi_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_face" />
+
+    <ImageView
+        android:id="@+id/btn_face"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_face_nomal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_send_bg_disable"
+        android:text="发送"
+        android:textColor="@color/btn_send_textcolor"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_face"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/et_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"/>
+
+    <!--<jiguang.chat.utils.keyboard.widget.FuncLayout-->
+        <!--android:id="@+id/ly_kvml"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="gone"/>-->
+</androidx.constraintlayout.widget.ConstraintLayout>
